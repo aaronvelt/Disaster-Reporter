@@ -6,7 +6,6 @@ public class Teleprompter : MonoBehaviour
 {
     [SerializeField] private string telepromterName;
     public bool playerLooked = false;
-
     
     void Update()
     {
@@ -15,5 +14,10 @@ public class Teleprompter : MonoBehaviour
             Debug.Log( Time.time + "| I see: " + telepromterName);
             playerLooked = false;
         }
+    }
+
+    public void StartSegment(ScriptableObject segment)
+    {
+        
     }
 }
