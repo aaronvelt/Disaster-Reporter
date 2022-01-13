@@ -21,7 +21,7 @@ public class TeleprompterManager : MonoBehaviour
     
     private void Update()
     {
-        if (Input.GetKey(KeyCode.B))
+        if (Input.GetKeyDown(KeyCode.B))
         {
             NextSegment();
         }
@@ -29,7 +29,7 @@ public class TeleprompterManager : MonoBehaviour
 
     public void NextSegment()
     {
-        if (_index >= segments.Length) return;
+        if (_index > segments.Length) return;
         teleprompters[Random.Range(0, teleprompters.Length)].StartSegment(segments[_index]);
         _index++;
     }
