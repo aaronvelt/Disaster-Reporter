@@ -9,8 +9,10 @@ public class Teleprompter : MonoBehaviour
 {
     [SerializeField] private RectTransform textBox;
     [SerializeField] private Text textContent;
-    [SerializeField] private string telepromterName;
     [SerializeField] private float textSpeed;
+    [SerializeField] private float textOffSet;
+    [SerializeField] private float textIncreasedSpeed;
+    [SerializeField] private int textIncreasedSize;
     public bool playerLooked;
     private float _height;
     private bool _active;
@@ -27,7 +29,7 @@ public class Teleprompter : MonoBehaviour
     {
         textContent.text = segment.text;
         _height = textContent.preferredHeight;
-        textBox.anchoredPosition = new Vector3(0, -(_height / 2 + 10), -20);
+        textBox.anchoredPosition = new Vector3(0, -(_height / 2 + textOffSet), -20);
         _active = true;
     }
     
@@ -37,12 +39,22 @@ public class Teleprompter : MonoBehaviour
         position = new Vector3(0, position.y + Time.deltaTime * textSpeed, position.z);
         textBox.anchoredPosition = position;
 
-        if (textBox.anchoredPosition.y >= (_height / 2 + 5))
+        if (textBox.anchoredPosition.y >= (_height / 2 + textOffSet))
         {
             _active = false;
             textContent.text = " ";
             textBox.anchoredPosition = new Vector3(0, -10, -20);
             TeleprompterManager.instance.NextSegment();
         }
+    }
+
+    private void ChangeTextSpeed()
+    {
+        textSpeed = textIncreasedSpeed;
+    }
+
+    private void ChangeFontSize()
+    {
+        textContent.fontSize = textIncreasedSize;
     }
 }

@@ -9,6 +9,8 @@ namespace ScriptableObjects
     {
         public string segmentName;
         public SegmentType segmentType;
+        public string eventName;
+        public bool atStart;
     
         [TextArea(5, 5)] 
         public string text;

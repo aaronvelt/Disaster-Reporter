@@ -2707,8 +2707,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textBox: {fileID: 1823189170}
   textContent: {fileID: 1823189172}
-  telepromterName: 1
   textSpeed: 3
+  textOffSet: 10
+  textIncreasedSpeed: 8
+  textIncreasedSize: 8
   playerLooked: 0
 --- !u!1 &779554591
 GameObject:
@@ -3637,8 +3639,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textBox: {fileID: 1636393054}
   textContent: {fileID: 1636393056}
-  telepromterName: 2
   textSpeed: 3
+  textOffSet: 10
+  textIncreasedSpeed: 8
+  textIncreasedSize: 8
   playerLooked: 0
 --- !u!1 &1090624315
 GameObject:
@@ -5485,8 +5489,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textBox: {fileID: 1554274239}
   textContent: {fileID: 1554274241}
-  telepromterName: 3
   textSpeed: 3
+  textOffSet: 10
+  textIncreasedSpeed: 8
+  textIncreasedSize: 8
   playerLooked: 0
 --- !u!1001 &1554274236
 PrefabInstance:
