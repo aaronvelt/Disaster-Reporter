@@ -2705,13 +2705,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c185a76e79ff5f4bbc6982a01cfbc23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textBox: {fileID: 1823189170}
   textContent: {fileID: 1823189172}
   textSpeed: 3
+  textBox: {fileID: 1823189170}
   textOffSet: 10
-  textIncreasedSpeed: 8
-  textIncreasedSize: 8
-  playerLooked: 0
 --- !u!1 &779554591
 GameObject:
   m_ObjectHideFlags: 0
@@ -3387,6 +3384,8 @@ GameObject:
   m_Component:
   - component: {fileID: 991664668}
   - component: {fileID: 991664669}
+  - component: {fileID: 991664670}
+  - component: {fileID: 991664671}
   m_Layer: 0
   m_Name: Teleprompters
   m_TagString: Untagged
@@ -3430,6 +3429,52 @@ MonoBehaviour:
   segments:
   - {fileID: 11400000, guid: 9bc63c09ebb55034b99db37d423f3344, type: 2}
   - {fileID: 11400000, guid: 0001ebd5904d1cc469db4a8ba8b61967, type: 2}
+--- !u!114 &991664670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991664667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebd37f24470400d4f8b6d66ea4209980, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: 0001ebd5904d1cc469db4a8ba8b61967, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 991664671}
+        m_TargetAssemblyTypeName: TeleprompterTextEvent, Assembly-CSharp
+        m_MethodName: IncreaseTextSpeed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &991664671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991664667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a6abe95a92b3f94e94e26962a66b3c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleprompters:
+  - {fileID: 765663005}
+  - {fileID: 1076372216}
+  - {fileID: 1500931317}
+  textIncreasedSpeed: 10
+  textIncreasedSize: 8
 --- !u!1 &1050019580
 GameObject:
   m_ObjectHideFlags: 0
@@ -3637,13 +3682,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c185a76e79ff5f4bbc6982a01cfbc23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textBox: {fileID: 1636393054}
   textContent: {fileID: 1636393056}
   textSpeed: 3
+  textBox: {fileID: 1636393054}
   textOffSet: 10
-  textIncreasedSpeed: 8
-  textIncreasedSize: 8
-  playerLooked: 0
 --- !u!1 &1090624315
 GameObject:
   m_ObjectHideFlags: 0
@@ -5487,13 +5529,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c185a76e79ff5f4bbc6982a01cfbc23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textBox: {fileID: 1554274239}
   textContent: {fileID: 1554274241}
   textSpeed: 3
+  textBox: {fileID: 1554274239}
   textOffSet: 10
-  textIncreasedSpeed: 8
-  textIncreasedSize: 8
-  playerLooked: 0
 --- !u!1001 &1554274236
 PrefabInstance:
   m_ObjectHideFlags: 0

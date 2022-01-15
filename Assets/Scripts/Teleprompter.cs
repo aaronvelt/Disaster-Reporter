@@ -1,19 +1,16 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using ScriptableObjects;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class Teleprompter : MonoBehaviour
 {
+    public Text textContent;
+    public float textSpeed;
     [SerializeField] private RectTransform textBox;
-    [SerializeField] private Text textContent;
-    [SerializeField] private float textSpeed;
     [SerializeField] private float textOffSet;
-    [SerializeField] private float textIncreasedSpeed;
-    [SerializeField] private int textIncreasedSize;
-    public bool playerLooked;
+    [NonSerialized]public bool playerLooked;
+    private SegmentScriptableObject _segment;
     private float _height;
     private bool _active;
 
@@ -27,10 +24,16 @@ public class Teleprompter : MonoBehaviour
 
     public void StartSegment(SegmentScriptableObject segment)
     {
+        _segment = segment;
         textContent.text = segment.text;
         _height = textContent.preferredHeight;
         textBox.anchoredPosition = new Vector3(0, -(_height / 2 + textOffSet), -20);
         _active = true;
+        
+        if (segment.atStart)
+        {
+            segment.Raise();
+        }
     }
     
     private void ScrollSegment()
@@ -44,17 +47,15 @@ public class Teleprompter : MonoBehaviour
             _active = false;
             textContent.text = " ";
             textBox.anchoredPosition = new Vector3(0, -10, -20);
+
+            if (!_segment.atStart)
+            {
+                _segment.Raise();
+            }
+
+            _height = 0;
+            _segment = null;
             TeleprompterManager.instance.NextSegment();
         }
-    }
-
-    private void ChangeTextSpeed()
-    {
-        textSpeed = textIncreasedSpeed;
-    }
-
-    private void ChangeFontSize()
-    {
-        textContent.fontSize = textIncreasedSize;
     }
 }
