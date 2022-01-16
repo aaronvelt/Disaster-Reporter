@@ -27,7 +27,7 @@ public class Teleprompter : MonoBehaviour
         _segment = segment;
         textContent.text = segment.text;
         _height = textContent.preferredHeight;
-        textBox.anchoredPosition = new Vector3(0, -(_height / 2 + textOffSet), -20);
+        textBox.anchoredPosition = new Vector3(-7, -(_height / 2 + textOffSet), -6);
         _active = true;
         
         if (segment.atStart)
@@ -46,7 +46,7 @@ public class Teleprompter : MonoBehaviour
         {
             _active = false;
             textContent.text = " ";
-            textBox.anchoredPosition = new Vector3(0, -10, -20);
+            textBox.anchoredPosition = new Vector3(-7, -10, -6);
 
             if (!_segment.atStart)
             {
