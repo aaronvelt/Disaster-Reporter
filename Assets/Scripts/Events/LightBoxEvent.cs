@@ -10,7 +10,6 @@ public class LightBoxEvent : MonoBehaviour
     
     public void Fall()
     {
-        Debug.Log("Fall " + name );
         lightMesh.material = lightOffMaterial;
         animator.SetTrigger("fall");
     }
