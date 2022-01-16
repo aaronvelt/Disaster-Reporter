@@ -29,8 +29,10 @@ public class TeleprompterManager : MonoBehaviour
 
     public void NextSegment()
     {
-        if (_index > segments.Length) return;
-        teleprompters[Random.Range(0, teleprompters.Length)].StartSegment(segments[_index]);
-        _index++;
+        if (_index < segments.Length)
+        {
+            teleprompters[Random.Range(0, teleprompters.Length)].StartSegment(segments[_index]);
+            _index++;   
+        }
     }
 }

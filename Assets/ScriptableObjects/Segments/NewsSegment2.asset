@@ -12,11 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f043ec0c9a90b941a0312114f5dac26, type: 3}
   m_Name: NewsSegment2
   m_EditorClassIdentifier: 
-  gameEvent: {fileID: 11400000, guid: 6a01df40ed8b0814ba8106b87ed25bf4, type: 2}
   segmentName: Blizzard Warning
-  segmentType: 0
-  eventName: 
-  atStart: 0
+  atStart: 1
   text: Mauris vulputate sapien odio, nec semper velit elementum eu. Aenean quam
     dui, pharetra ut erat ut, ornare viverra metus. Aenean justo mi, mattis sed ultrices
     feugiat, dapibus nec ex. Vestibulum porttitor tincidunt orci, eget sollicitudin

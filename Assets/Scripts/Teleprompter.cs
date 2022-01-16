@@ -24,16 +24,15 @@ public class Teleprompter : MonoBehaviour
 
     public void StartSegment(SegmentScriptableObject segment)
     {
+        if (segment.atStart)
+        {
+            segment.Raise();
+        }
         _segment = segment;
         textContent.text = segment.text;
         _height = textContent.preferredHeight;
         textBox.anchoredPosition = new Vector3(-7, -(_height / 2 + textOffSet), -6);
         _active = true;
-        
-        if (segment.atStart)
-        {
-            segment.Raise();
-        }
     }
     
     private void ScrollSegment()
