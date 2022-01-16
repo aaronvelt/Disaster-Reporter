@@ -27,7 +27,7 @@ public class Teleprompter : MonoBehaviour
 
     public void StartSegment(SegmentScriptableObject segment)
     {
-        if (segment.atStart)
+        if (!segment.atEnd)
         {
             segment.Raise();
         }
@@ -51,7 +51,7 @@ public class Teleprompter : MonoBehaviour
             textContent.text = " ";
             textBox.anchoredPosition = new Vector3(-7, -10, -6);
 
-            if (!_segment.atStart)
+            if (_segment.atEnd)
             {
                 _segment.Raise();
             }

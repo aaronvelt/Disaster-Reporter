@@ -10,6 +10,7 @@ public class TeleprompterTextEvent : MonoBehaviour
     
     public void IncreaseTextSpeed()
     {
+        Debug.Log("Faster");
         foreach (Teleprompter teleprompter in teleprompters)
         {
             teleprompter.textSpeed = textIncreasedSpeed;
