@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f043ec0c9a90b941a0312114f5dac26, type: 3}
+  m_Name: Earthquake2Segment
+  m_EditorClassIdentifier: 
+  segmentName: Earthquake 2
+  atStart: 0
+  text: "And we are back with breaking news, now live on location as we experience
+    one of the aftershocks of the quake. What has happened was that the epicentrum
+    of the primary quake has moved 50 km north, where our studio is located. No injuries
+    or major damage has been reported yet but locals said they felt large tremors
+    from afar. there haven\u2019t been any statements issued by the government yet."
