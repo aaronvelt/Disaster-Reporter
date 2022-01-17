@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: GooseMayhemSegment
   m_EditorClassIdentifier: 
   segmentName: Loose goose causing mayhem
-  atStart: 0
+  atEnd: 1
   text: "Yesterday\u2019s citizens of Swinford were terrorized by a wild gooze that
     according to several locals acted like \u201Ca complete ass\u201D or \u201Cvery
     not cool\u201D. The swan was seen stealing small shiny objects like keys and
