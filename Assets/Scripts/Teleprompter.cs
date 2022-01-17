@@ -6,9 +6,12 @@ using UnityEngine.UI;
 public class Teleprompter : MonoBehaviour
 {
     public Text textContent;
+    public RectTransform textBox;
+    public MeshRenderer lightMesh;
+    public Material LightOffMaterial;
+    public Material LightOnMaterial;
     public float textSpeed;
-    [SerializeField] private RectTransform textBox;
-    [SerializeField] private float textOffSet;
+    public float textOffSet;
     [NonSerialized]public bool playerLooked;
     private SegmentScriptableObject _segment;
     private float _height;
@@ -24,12 +27,13 @@ public class Teleprompter : MonoBehaviour
 
     public void StartSegment(SegmentScriptableObject segment)
     {
-        if (segment.atStart)
+        if (!segment.atEnd)
         {
             segment.Raise();
         }
         _segment = segment;
         textContent.text = segment.text;
+        lightMesh.material = LightOnMaterial;
         _height = textContent.preferredHeight;
         textBox.anchoredPosition = new Vector3(-7, -(_height / 2 + textOffSet), -6);
         _active = true;
@@ -47,13 +51,14 @@ public class Teleprompter : MonoBehaviour
             textContent.text = " ";
             textBox.anchoredPosition = new Vector3(-7, -10, -6);
 
-            if (!_segment.atStart)
+            if (_segment.atEnd)
             {
                 _segment.Raise();
             }
 
             _height = 0;
             _segment = null;
+            lightMesh.material = LightOffMaterial;
             TeleprompterManager.instance.NextSegment();
         }
     }

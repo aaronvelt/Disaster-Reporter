@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f043ec0c9a90b941a0312114f5dac26, type: 3}
+  m_Name: IntroSegment
+  m_EditorClassIdentifier: 
+  segmentName: Intro
+  atStart: 1
+  text: "Good evening and welcome to channel 17 news.\r\nI\u2019m [your name here],
+    your host for tonight.\r\n\r\nWith tonights\u2019 stories:\r\nA new possible
+    cure has been found for Parkinson.\r\nYesterday\u2019s bank robbers have been
+    caught.\r\nSyrup has been outlawed.\r\n\r\nAnd on local news:\r\nLegend Mr. Piper
+    passed away.\r\nLocal goose wreaking mayhem.\r\n"

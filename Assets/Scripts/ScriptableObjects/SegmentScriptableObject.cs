@@ -7,7 +7,7 @@ namespace ScriptableObjects
     public class SegmentScriptableObject : ScriptableObject
     {
         public string segmentName;
-        public bool atStart;
+        public bool atEnd;
     
         [TextArea(5, 5)] 
         public string text;

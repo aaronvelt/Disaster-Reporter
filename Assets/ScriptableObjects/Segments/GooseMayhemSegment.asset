@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f043ec0c9a90b941a0312114f5dac26, type: 3}
+  m_Name: GooseMayhemSegment
+  m_EditorClassIdentifier: 
+  segmentName: Loose goose causing mayhem
+  atStart: 0
+  text: "Yesterday\u2019s citizens of Swinford were terrorized by a wild gooze that
+    according to several locals acted like \u201Ca complete ass\u201D or \u201Cvery
+    not cool\u201D. The swan was seen stealing small shiny objects like keys and
+    cans. This type of behavior is more often associated with Magpie\u2019s and members
+    of the crow and raven family.\r\nThe locals called an animal sanctuary to take
+    care of their goose problem; this sadly backfired when the goose bullied the
+    volunteers and chased them off. Aggressively honking about while doing so.\r\n"
