@@ -12,10 +12,12 @@ public class Teleprompter : MonoBehaviour
     public Material LightOnMaterial;
     public float textSpeed;
     public float textOffSet;
-    [NonSerialized]public bool playerLooked;
+    [NonSerialized] public bool playerLooked;
     private SegmentScriptableObject _segment;
     private float _height;
     private bool _active;
+
+    [SerializeField] private AudioSource source;
 
     void Update()
     {
@@ -30,6 +32,7 @@ public class Teleprompter : MonoBehaviour
         if (!segment.atEnd)
         {
             segment.Raise();
+            source.Play();
         }
         _segment = segment;
         textContent.text = segment.text;
