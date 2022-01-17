@@ -146,14 +146,14 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 0.8, g: 0.8, b: 0.8, a: 1}
     - _ColorDim: {r: 0.8, g: 0.8, b: 0.8, a: 1}
     - _ColorDimCurve: {r: 0.85023, g: 0.85034, b: 0.8504499, a: 0.85056}
     - _ColorDimExtra: {r: 0.85023, g: 0.85034, b: 0.8504499, a: 0.85056}
     - _ColorDimSteps: {r: 0.8, g: 0.8, b: 0.8, a: 1}
     - _ColorGradient: {r: 0.8, g: 0.8, b: 0.8, a: 1}
-    - _EmissionColor: {r: 3.4896333, g: 2.978064, b: 2.1376288, a: 1}
+    - _EmissionColor: {r: 4.867144, g: 4.153636, b: 2.9814441, a: 1}
     - _FlatRimColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
     - _FlatSpecularColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
     - _LightmapDirection: {r: 0, g: 1, b: 0, a: 0}

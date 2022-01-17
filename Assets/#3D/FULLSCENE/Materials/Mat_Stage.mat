@@ -21,7 +21,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 0006ad8f01dd16449ae602318977e308, type: 3}
+        m_Texture: {fileID: 2800000, guid: 328fcab7ca38d174cab52554854b4f0b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -53,7 +53,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 0006ad8f01dd16449ae602318977e308, type: 3}
+        m_Texture: {fileID: 2800000, guid: 328fcab7ca38d174cab52554854b4f0b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -146,14 +146,14 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 0.8, g: 0.8, b: 0.8, a: 1}
     - _ColorDim: {r: 0.8207547, g: 0.8207547, b: 0.8207547, a: 1}
     - _ColorDimCurve: {r: 0.85023, g: 0.85034, b: 0.8504499, a: 0.85056}
     - _ColorDimExtra: {r: 0.85023, g: 0.85034, b: 0.8504499, a: 0.85056}
     - _ColorDimSteps: {r: 0.8, g: 0.8, b: 0.8, a: 1}
     - _ColorGradient: {r: 0.8, g: 0.8, b: 0.8, a: 1}
-    - _EmissionColor: {r: 2.1185474, g: 1.7968831, b: 1.0759115, a: 1}
+    - _EmissionColor: {r: 1.1486983, g: 1.1486983, b: 1.1486983, a: 1}
     - _FlatRimColor: {r: 0.3018868, g: 0.3018868, b: 0.3018868, a: 1}
     - _FlatSpecularColor: {r: 0.11320752, g: 0.11320752, b: 0.11320752, a: 1}
     - _LightmapDirection: {r: 0, g: 1, b: 0, a: 0}
