@@ -24,6 +24,11 @@ public class Teleprompter : MonoBehaviour
         if (_active)
         {
             ScrollSegment();
+            if (playerLooked)
+            {
+                ScoreManager.instance.IncreaseScore(Time.deltaTime);
+                playerLooked = false;
+            }
         }
     }
 

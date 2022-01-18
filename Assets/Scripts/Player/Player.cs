@@ -6,12 +6,6 @@ public class Player : MonoBehaviour
 {
     public Transform cameraTransform;
     
-    
-    void Start()
-    {
-        
-    }
-    
     void Update()
     {
         FireRaycast(cameraTransform);

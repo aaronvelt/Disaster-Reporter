@@ -14,7 +14,7 @@ public class PlayerViewCheck : MonoBehaviour
 
             if (target != null && target.GetComponent<Teleprompter>() != null)
             {
-                
+                ScoreManager.instance.IncreaseScore(1f);
             }
         }
     }
