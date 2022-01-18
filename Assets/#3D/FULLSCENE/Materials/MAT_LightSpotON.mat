@@ -153,7 +153,7 @@ Material:
     - _ColorDimExtra: {r: 0.85023, g: 0.85034, b: 0.8504499, a: 0.85056}
     - _ColorDimSteps: {r: 0.8, g: 0.8, b: 0.8, a: 1}
     - _ColorGradient: {r: 0.8, g: 0.8, b: 0.8, a: 1}
-    - _EmissionColor: {r: 4.867144, g: 4.153636, b: 2.9814441, a: 1}
+    - _EmissionColor: {r: 6.648715, g: 5.674034, b: 4.072773, a: 1}
     - _FlatRimColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
     - _FlatSpecularColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
     - _LightmapDirection: {r: 0, g: 1, b: 0, a: 0}
