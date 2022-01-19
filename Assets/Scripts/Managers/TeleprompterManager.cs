@@ -12,7 +12,8 @@ public class TeleprompterManager : MonoBehaviour
     private Teleprompter[] teleprompters;
     [SerializeField]
     private SegmentScriptableObject[] segments;
-    private int _index = 0;
+    private int _index;
+    private int _lastPrompterIndex;
 
     private void Awake()
     {
@@ -31,7 +32,19 @@ public class TeleprompterManager : MonoBehaviour
     {
         if (_index < segments.Length)
         {
-            teleprompters[Random.Range(0, teleprompters.Length)].StartSegment(segments[_index]);
+            int randomPrompterIndex = Random.Range(0, teleprompters.Length);
+
+            if (randomPrompterIndex == _lastPrompterIndex)
+            {
+                randomPrompterIndex += 1;
+                if (randomPrompterIndex >= teleprompters.Length)
+                {
+                    randomPrompterIndex = 0;
+                }
+            }
+            teleprompters[randomPrompterIndex].StartSegment(segments[_index]);
+
+            _lastPrompterIndex = randomPrompterIndex;
             _index++;   
         }
     }

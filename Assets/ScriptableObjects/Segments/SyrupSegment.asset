@@ -13,17 +13,17 @@ MonoBehaviour:
   m_Name: SyrupSegment
   m_EditorClassIdentifier: 
   segmentName: '[Syrup has been outlawed]'
-  atStart: 0
+  atEnd: 1
   text: 'And now tonight''s latest news, all forms of syrup will as of tomorrow be
     outlawed, police have started rounding up pots and bottles of syrup and burning
     them in the street.
 
-    
+
 
     All those who will consume, sell syrup or criticize
     this decision by the government will be declared enemies of the state.
 
-    
+
 
     Thank
     you for watching and join us again tomorrow for more exciting news.

@@ -9,7 +9,12 @@ public class ScoreManager : MonoBehaviour
     public Text scoreText1;
     public Text scoreText2;
     public Text scoreText3;
+    public MeshRenderer wallMeshRenderer;
+    public Material hiredMat;
+    public Material firedMat;
+    
     public float score;
+    public float hiredCondition;
 
     private void Awake()
     {
@@ -22,6 +27,18 @@ public class ScoreManager : MonoBehaviour
         scoreText1.text = "" + (int)score;
         scoreText2.text = "" + (int)score;
         scoreText3.text = "" + (int)score;
+    }
+
+    public void GetScoreResult()
+    {
+        if (score >= hiredCondition)
+        {
+            wallMeshRenderer.material = hiredMat;
+        }
+        else
+        {
+            wallMeshRenderer.material = firedMat;
+        }
     }
     
     
