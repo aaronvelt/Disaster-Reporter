@@ -359,7 +359,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d805ca71db441b4bbba546089a16ef0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 127289381}
+  shakeAnimator: {fileID: 0}
+  flickerAnimator: {fileID: 0}
+  flickerMatAnimator: {fileID: 0}
 --- !u!1001 &152041061
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1450,7 +1452,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d805ca71db441b4bbba546089a16ef0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 224743926}
+  shakeAnimator: {fileID: 0}
+  flickerAnimator: {fileID: 0}
+  flickerMatAnimator: {fileID: 0}
 --- !u!1 &243494568
 GameObject:
   m_ObjectHideFlags: 0
@@ -2295,7 +2299,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d805ca71db441b4bbba546089a16ef0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 805395182}
+  shakeAnimator: {fileID: 0}
+  flickerAnimator: {fileID: 0}
+  flickerMatAnimator: {fileID: 0}
 --- !u!1 &809748749
 GameObject:
   m_ObjectHideFlags: 0
@@ -3082,7 +3088,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d805ca71db441b4bbba546089a16ef0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 1059121056}
+  shakeAnimator: {fileID: 0}
+  flickerAnimator: {fileID: 0}
+  flickerMatAnimator: {fileID: 0}
 --- !u!1 &1104525198 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6559763005484419926, guid: cbfe8bd6ab0b2404284ca55d58835a05, type: 3}
@@ -3819,7 +3827,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 87772ea1f0535de4990ec59a45224648, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 2299a01ba1a812c43a30a75447f3fdbd, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
