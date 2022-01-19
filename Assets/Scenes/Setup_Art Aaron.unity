@@ -3226,7 +3226,11 @@ MonoBehaviour:
   scoreText1: {fileID: 1692162886}
   scoreText2: {fileID: 997882950}
   scoreText3: {fileID: 993463565}
+  wallMeshRenderer: {fileID: 7562988005882691068}
+  hiredMat: {fileID: 2100000, guid: 90b14e0bd2f5f3741879817a613cb283, type: 2}
+  firedMat: {fileID: 2100000, guid: 0bf3d610e3bef2e4d8155f75ff560fd1, type: 2}
   score: 0
+  hiredCondition: 3
 --- !u!4 &1875414479
 Transform:
   m_ObjectHideFlags: 0
@@ -3506,7 +3510,19 @@ MonoBehaviour:
   Event: {fileID: 11400000, guid: 89755bd91ce85864f8fae3c654100882, type: 2}
   Response:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1875414478}
+        m_TargetAssemblyTypeName: ScoreManager, Assembly-CSharp
+        m_MethodName: GetScoreResult
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1896659462
 MonoBehaviour:
   m_ObjectHideFlags: 0
