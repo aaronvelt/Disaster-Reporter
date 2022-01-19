@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: MrPiperSegment
   m_EditorClassIdentifier: 
   segmentName: Mr Piper's unfortunate death
-  atStart: 0
+  atEnd: 0
   text: 'Sad news, as local hero Mr. Peter Piper has sadly passed away, and this
     4 years after saving the life of a snake oil salesman from a sinking ship.
 
-    
+
 
     He
     became well known after using his backpack as a paddle to pedal to a pebley beach
@@ -26,10 +26,8 @@ MonoBehaviour:
     wanted to go back to the Wreck of his Ship Jaque. Sadly they failed to save the
     life of Pat, the owner of the boat.
 
-    
+
 
     So in short Peter Piper persisted
     on pedaling past the petty Pat to pick up Mr Quack, the total hack, from the
-    wreck of SS Jaque.
-
-'
+    wreck of SS Jaque.'

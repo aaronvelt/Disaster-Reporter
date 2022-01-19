@@ -13,17 +13,15 @@ MonoBehaviour:
   m_Name: ParkinsonSegment
   m_EditorClassIdentifier: 
   segmentName: New cure found for Parkinson
-  atStart: 0
+  atEnd: 0
   text: 'The University of Nottingham has made a scientific breakthrough after finding
     a chemical compound that can suppress certain symptoms of Parkinson and slow
     down memory degradation.
 
-    
 
-    This chemical is excreted like sweat by
-    penaeid and caridean shrimp. This makes it easy to harvest by causing focal hyperhidrosis
+
+    This chemical is excreted like sweat by penaeid
+    and caridean shrimp. This makes it easy to harvest by causing focal hyperhidrosis
     on the shrimp. Which will cause the sudoriferous glands to excrete more than
     normal. This excretion can be easily caught with damp cloth that can be later
-    wringed out over an old bucket.
-
-'
+    wringed out over an old bucket.'

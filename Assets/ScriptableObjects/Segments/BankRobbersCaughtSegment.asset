@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BankRobbersCaughtSegment
   m_EditorClassIdentifier: 
   segmentName: Bank Robbers caught
-  atStart: 0
+  atEnd: 0
   text: "But now our main story for tonight, \r\n\r\nThe bank robbers who attempted
     an armed robbery at South Holdings Inc. have been caught.\r\nIt was yesterday
     at 11 PM that these three men wearing ski masks and sunglasses, came into the
@@ -22,4 +22,4 @@ MonoBehaviour:
     Harrison Ryan claimed that the criminals were well prepared but made a flaw that
     eventually led to their demise, they used the same getaway vehicle to scout the
     environment two days prior. Using several images of surveillance cameras from
-    the same street, police managed to get clear shots of the perpetrators' faces.\r\n"
+    the same street, police managed to get clear shots of the perpetrators' faces.\r"

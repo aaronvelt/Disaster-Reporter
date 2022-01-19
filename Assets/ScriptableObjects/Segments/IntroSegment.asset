@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: IntroSegment
   m_EditorClassIdentifier: 
   segmentName: Intro
-  atStart: 1
+  atEnd: 0
   text: "Good evening and welcome to channel 17 news.\r\nI\u2019m [your name here],
     your host for tonight.\r\n\r\nWith tonights\u2019 stories:\r\nA new possible
     cure has been found for Parkinson.\r\nYesterday\u2019s bank robbers have been
     caught.\r\nSyrup has been outlawed.\r\n\r\nAnd on local news:\r\nLegend Mr. Piper
-    passed away.\r\nLocal goose wreaking mayhem.\r\n"
+    passed away.\r\nLocal goose wreaking mayhem.\r"

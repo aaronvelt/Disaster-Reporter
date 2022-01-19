@@ -6,7 +6,37 @@ ModelImporter:
   - first:
       74: 1827226128182048838
     second: Take 001
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dust_MAT
+    second: {fileID: 2100000, guid: 4667927e5b86a22428409a4892c3b9f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stones_MAT
+    second: {fileID: 2100000, guid: 3e534bc4516f261489e547efecdbe89a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stones_MAT1
+    second: {fileID: 2100000, guid: 4e76dbbb222b5184198c39d8b251b9f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stones_MAT2
+    second: {fileID: 2100000, guid: 838f7dcb092fc0d4daa7e60688b3f8d1, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Dust_defaultPolygonShader1_AlbedoTransparency
+    second: {fileID: 2800000, guid: 10d24dc841017934f9722ecc714f7d12, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stones_Stones_MAT_AlbedoTransparency2
+    second: {fileID: 2800000, guid: ba70ac7039ae6fb4bb9ddc06f796a3d6, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
