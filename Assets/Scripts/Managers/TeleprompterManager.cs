@@ -27,7 +27,11 @@ public class TeleprompterManager : MonoBehaviour
             NextSegment();
         }
     }
-
+    
+    /*
+     * get next segment from segments array and assign it to random teleprompter
+     * if random teleprompter equals last one, get next teleprompter in array
+     */
     public void NextSegment()
     {
         if (_index < segments.Length)

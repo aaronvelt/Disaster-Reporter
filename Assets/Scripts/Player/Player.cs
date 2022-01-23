@@ -11,6 +11,9 @@ public class Player : MonoBehaviour
         FireRaycast(cameraTransform);
     }
     
+    /* fire raycast and check for object with teleprompter component
+     * set teleprompter's playerLooked to true.
+     */
     void FireRaycast(Transform start, float range = 50f)
     {
         RaycastHit hit;

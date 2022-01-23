@@ -32,6 +32,11 @@ public class Teleprompter : MonoBehaviour
         }
     }
 
+    /*
+     * Set teleprompters segment to new segment and reset position
+     * if segment holds events for start: invoke
+     * set active to true
+     */
     public void StartSegment(SegmentScriptableObject segment)
     {
         if (!segment.atEnd)
@@ -47,6 +52,11 @@ public class Teleprompter : MonoBehaviour
         _active = true;
     }
     
+    /*
+     * When segment is outside of teleprompter view reset teleprompter segment
+     * set active to false
+     * if segment holds events for end: invoke and get call next segment
+     */
     private void ScrollSegment()
     {
         Vector3 position = textBox.anchoredPosition;
