@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f043ec0c9a90b941a0312114f5dac26, type: 3}
+  m_Name: MrPiperSegment
+  m_EditorClassIdentifier: 
+  segmentName: Mr Piper's unfortunate death
+  atEnd: 0
+  text: 'Sad news, as local hero Mr. Peter Piper has sadly passed away, and this
+    4 years after saving the life of a snake oil salesman from a sinking ship.
+
+
+
+    He
+    became well known after using his backpack as a paddle to pedal to a pebley beach
+    on a makeshift boat made from banana peels. At the back of the boat was a sack
+    with inside, the total hack, Mr Quack. Mr Quack, completely whacked, said he
+    wanted to go back to the Wreck of his Ship Jaque. Sadly they failed to save the
+    life of Pat, the owner of the boat.
+
+
+
+    So in short Peter Piper persisted
+    on pedaling past the petty Pat to pick up Mr Quack, the total hack, from the
+    wreck of SS Jaque.'

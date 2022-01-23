@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f043ec0c9a90b941a0312114f5dac26, type: 3}
+  m_Name: WeatherSegment
+  m_EditorClassIdentifier: 
+  segmentName: WeatherSegment End
+  atEnd: 1
+  text: "And the weather for tomorrow, looks like there will be sun. Lot\u2019s of
+    it, all around the place. \r\nSo if we take a look at the south of the country,
+    we can expect temperatures up to  70 degrees fahrenheit.\r\nWhen we look at the
+    North of the country, we can expect a nice cloudless sky with temperatures up
+    to 69 degrees fahrenheit. \r\nFurthermore we will suggest people that are on
+    holiday to the beaches to pack some sunscreen with them. And for those who aren't
+    on holiday: you poor, poor basterds\r."

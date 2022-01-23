@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f043ec0c9a90b941a0312114f5dac26, type: 3}
+  m_Name: BankRobbersCaughtSegment
+  m_EditorClassIdentifier: 
+  segmentName: Bank Robbers caught
+  atEnd: 0
+  text: "But now our main story for tonight, \r\n\r\nThe bank robbers who attempted
+    an armed robbery at South Holdings Inc. have been caught.\r\nIt was yesterday
+    at 11 PM that these three men wearing ski masks and sunglasses, came into the
+    building heavily armed. The robbers were out of the bank 64 seconds after the
+    silent alarm went off, and 26 seconds before police arrived. \r\n\r\nOfficer
+    Harrison Ryan claimed that the criminals were well prepared but made a flaw that
+    eventually led to their demise, they used the same getaway vehicle to scout the
+    environment two days prior. Using several images of surveillance cameras from
+    the same street, police managed to get clear shots of the perpetrators' faces.\r"

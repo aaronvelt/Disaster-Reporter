@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f043ec0c9a90b941a0312114f5dac26, type: 3}
+  m_Name: ParkinsonSegment
+  m_EditorClassIdentifier: 
+  segmentName: New cure found for Parkinson
+  atEnd: 0
+  text: 'The University of Nottingham has made a scientific breakthrough after finding
+    a chemical compound that can suppress certain symptoms of Parkinson and slow
+    down memory degradation.
+
+
+
+    This chemical is excreted like sweat by penaeid
+    and caridean shrimp. This makes it easy to harvest by causing focal hyperhidrosis
+    on the shrimp. Which will cause the sudoriferous glands to excrete more than
+    normal. This excretion can be easily caught with damp cloth that can be later
+    wringed out over an old bucket.'
